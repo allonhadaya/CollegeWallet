@@ -21,4 +21,7 @@ class PagesController < ApplicationController
     @posts = Interview.all
     render "posts"
   end
+  
+  def facts
+  end
 end
