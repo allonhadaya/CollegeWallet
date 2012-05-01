@@ -1,0 +1,2 @@
+class Scholarship < Post
+end

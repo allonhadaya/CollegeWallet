@@ -1,0 +1,3 @@
+<div id="posts">
+	<%= @posts.map {|p| render :partial => p.content.type.downcase, :object => p.content }.join('<hr>').html_safe %>
+</div>

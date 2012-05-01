@@ -1,0 +1,2 @@
+class Youtube < Content
+end
